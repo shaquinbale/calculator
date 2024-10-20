@@ -1,5 +1,47 @@
-.box {
-    background-color: red;
-    width: 100px;
-    height: 100px;
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#calculator {
+    width: 350px;
+    height: 570px;
+    padding: 5px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    background-color: #424242;
+    border-radius: 10px;
+}
+
+#calculator #screen {
+    width: 320px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 70px;
+    background-color:#D3D3D3;
+    border-width: 10px;
+    border-color: black;
+    text-align: right;
+}
+
+#calculator button {
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.operator, .sign, .clear {
+    background-color: #FF9000;
+}
+
+.equals {
+    background-color: #FFD819;
+}
+
+.operand, .decimal {
+    background-color: #B7B7B7;
 }
